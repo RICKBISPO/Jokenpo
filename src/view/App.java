@@ -101,7 +101,7 @@ public class App {
                 // Exibe o resultado
                 String mensagem = "Resultado da Partida:\n";
 
-                if (resultado == 0) {
+                if (resultado == -1) {
                     mensagem += "Empate!";
                 } else if (resultado == 1) {
                     mensagem += jogador2.getNome() + " ganhou!";
