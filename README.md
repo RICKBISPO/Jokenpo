@@ -19,4 +19,7 @@ As regras do Jogo Pedra, Papel e Tesoura são as seguintes:
 
 Em caso de ambos os jogadores selecionarem a mesma "coisa", o jogo resulta em empate.
 
+## Autor 
+
+- [Henrique Bispo](https://github.com/RICKBISPO)
 
