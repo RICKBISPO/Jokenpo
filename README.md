@@ -9,4 +9,14 @@ Este é um simples jogo de Pedra, Papel e Tesoura implementado em Java. Os jogad
 - Java Development Kit (JDK)
 - Um ambiente de desenvolvimento Java, como Eclipse ou IntelliJ IDEA (opcional)
 
+## Regras do Jogo
+
+As regras do Jogo Pedra, Papel e Tesoura são as seguintes:
+
+- **Pedra** vence **Tesoura**.
+- **Tesoura** vence **Papel**.
+- **Papel** vence **Pedra**.
+
+Em caso de ambos os jogadores selecionarem a mesma "coisa", o jogo resulta em empate.
+
 
