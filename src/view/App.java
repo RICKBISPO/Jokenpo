@@ -72,26 +72,26 @@ public class App {
                         int escolhaNumericaJogador1 = Arrays.asList(opcoes).indexOf(escolhaJogador1);
                         int escolhaNumericaJogador2 = Arrays.asList(opcoes).indexOf(escolhaJogador2);
 
-                        jogador1.fazerEscolhaExata(escolhaNumericaJogador1);
-                        jogador2.fazerEscolhaExata(escolhaNumericaJogador2);
+                        jogador1.fazerEscolha(escolhaNumericaJogador1);
+                        jogador2.fazerEscolha(escolhaNumericaJogador2);
                         break;
                    // Humano x maquina
                     case 1:
 
-                        jogador2.fazerEscolhaAleatória(); 
+                        jogador2.fazerEscolha(); 
                         
                         String escolhaJogadorUnico = (String) JOptionPane.showInputDialog(null, jogador1.getNome() + ", escolha a sua jogada:",
                         jogador1.getNome(), JOptionPane.PLAIN_MESSAGE, null, opcoes, opcoes[0]);
 
                         int escolhaNumericaJogadorUnico = Arrays.asList(opcoes).indexOf(escolhaJogadorUnico);
                         
-                        jogador1.fazerEscolhaExata(escolhaNumericaJogadorUnico);
+                        jogador1.fazerEscolha(escolhaNumericaJogadorUnico);
                     break;
                     // Maquina x maquina
                     case 2:
 
-                        jogador1.fazerEscolhaAleatória();
-                        jogador2.fazerEscolhaAleatória();
+                        jogador1.fazerEscolha();
+                        jogador2.fazerEscolha();
                         break;
                 }
 

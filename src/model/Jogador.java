@@ -11,7 +11,7 @@ public class Jogador {
         this.nome = nome;
     }
 
-    public Coisa fazerEscolhaAleatória() {
+    public Coisa fazerEscolha() {
         
         Random random = new Random();
         int escolhaAleatoria = random.nextInt(3); 
@@ -27,7 +27,7 @@ public class Jogador {
         return escolha;
     }
 
-    public Coisa fazerEscolhaExata(int escolhaExata) {
+    public Coisa fazerEscolha(int escolhaExata) {
 
         if (escolhaExata == 0) {
             escolha = new Pedra();
